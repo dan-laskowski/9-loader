@@ -1,0 +1,13 @@
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.content {
+  margin: 3rem;
+  max-width: 600px;
+  text-align: justify;
+}

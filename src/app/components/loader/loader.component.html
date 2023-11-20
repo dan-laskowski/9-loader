@@ -1,0 +1,8 @@
+@switch(loaderState){ @case (LOADER_STATE.isLoading) {
+<section class="loader-wrapper">
+  <img class="loader-icon" [src]="spinnerIcon" alt="spinner" width="96px" />
+  @if(spinnerText){
+  <p class="loader-text">{{ spinnerText | uppercase }}</p>
+  }
+</section>
+} }
